@@ -12,6 +12,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String index() {
-        return "Hello from Pierre ! :)" + configValue;
+        return "Hello from Pierre ! :)";
     }
 }
